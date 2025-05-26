@@ -1,3 +1,25 @@
-sample code base
-new feature
+1. how to setup git server and client
+
+Linux machines - MobaXM
+
+2. GitHub protocols
+	- https - need a token and user name for every push
+	- ssh - no PWD, asymmetric key, private for encrypt; public for decrypt.
+
+Head - pointer which shows the latest commit
+Master - Local repo
+Origin - Remote repo
+
+git init - initializing the git, making the directory trackable by git
+git add - staging
+git commit - committing the changes to local repo, clearing the work dir
+git push - push to remote repo
+
+gitignore - it exempts the files that need not to be tracked by git.
+
+git restore vs git revert vs git reset
+
+git diff --   to view unstaged changes
+git diff --staged  to view staged changes
+
 
