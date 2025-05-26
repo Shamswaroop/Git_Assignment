@@ -22,4 +22,34 @@ git restore vs git revert vs git reset
 git diff --   to view unstaged changes
 git diff --staged  to view staged changes
 
+git push origin --all	to push all the branches (including master)
+
+git push origin --tags	to push the tag, needs to be done separately (tags helps in doing packaging and sending further from remote repo)
+
+Parallel development---
+Branching:
+Master --default branch, cannot be deleted
+
+git branch <branchname>	- creating a branch
+git checkout <branch>	- switch to that branch
+		or
+git checkout -b <branchname>
+
+how to create a branch at a particular commit?
+
+how to merge the branch to master -
+checkout to master(target)
+then, git merge <branch>
+
+***when a dev A is working in master on a functionality, and dev B is working on same functionality in a branch and when merge happens git will throw an error, at this time manual intervention is needed by reviewer***
+
+merge vs rebase (to maintain linear merging/development)
+
+Pull request?
+
+-----------------------------------------------------
+
+Continuous integration -- Jenkins-- java built -- numerous plugins -- good community support -- portable on all envs (Linux, mac, win)
+
+
 
